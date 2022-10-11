@@ -1,8 +1,0 @@
---cpu Cortex-M3
-".\objects\aula04-exer01.o"
-".\objects\startup_stm32f10x_md.o"
-".\objects\system_stm32f10x.o"
---strict --scatter ".\Objects\Aula04.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\Listings\Aula04.map" -o .\Objects\Aula04.axf
