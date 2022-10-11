@@ -1,7 +1,0 @@
---target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c
--gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"
--I./RTE/Device/STM32F103C8
--I./RTE/_Target_1
--IC:/Users/Andre/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
--Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"
--o ./objects/exer03.o "Exer03.s"
