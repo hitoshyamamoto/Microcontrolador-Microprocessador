@@ -1,0 +1,12 @@
+		EXPORT __main
+		AREA	OUR_PROG, CODE, READONLY
+__main
+		MOV R2, #0x02
+		MOV R3, #0x03
+		MOV R4, #0x05
+		
+		ADD R2, R2, R3
+		ADD R2, R2, R4
+		
+HERE	B	HERE
+		END
